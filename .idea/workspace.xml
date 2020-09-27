@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="adbc3308-4567-401c-bf92-a7387564fd59" name="Default Changelist" comment="" />
+    <list default="true" id="adbc3308-4567-401c-bf92-a7387564fd59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,6 +14,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Nikita Riabenkov" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
@@ -140,22 +147,46 @@
       <option name="presentableId" value="Default" />
       <updated>1601205672966</updated>
       <workItem from="1601205674686" duration="1069000" />
-      <workItem from="1601207059006" duration="17121000" />
+      <workItem from="1601207059006" duration="17406000" />
     </task>
+    <task id="LOCAL-00001" summary="bwt test">
+      <created>1601232023817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601232023817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="bwt test" />
+    <option name="LAST_COMMIT_MESSAGE" value="bwt test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="514" y="315" key="#Composer" timestamp="1601205817777">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="514" y="315" key="#Composer/0.23.1440.810/-311.-1057.1920.1057@0.23.1440.810" timestamp="1601205817777" />
+    <state x="280" y="23" key="CommitChangelistDialog2" timestamp="1601232023461">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="280" y="23" key="CommitChangelistDialog2/0.23.1440.810/-311.-1057.1920.1057@0.23.1440.810" timestamp="1601232023461" />
     <state x="491" y="161" key="NewPhpClassDialog" timestamp="1601225804887">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
     <state x="491" y="161" key="NewPhpClassDialog/0.23.1440.810/-311.-1057.1920.1057@0.23.1440.810" timestamp="1601225804887" />
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2" timestamp="1601232046333">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="320" y="168" key="Vcs.Push.Dialog.v2/0.23.1440.810/-311.-1057.1920.1057@0.23.1440.810" timestamp="1601232046333" />
+    <state x="542" y="329" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1601231915944">
+      <screen x="0" y="23" width="1440" height="810" />
+    </state>
+    <state x="542" y="329" key="git4idea.remote.GitConfigureRemotesDialog/0.23.1440.810/-311.-1057.1920.1057@0.23.1440.810" timestamp="1601231915944" />
     <state x="385" y="157" width="670" height="676" key="search.everywhere.popup" timestamp="1601213944753">
       <screen x="0" y="23" width="1440" height="810" />
     </state>
