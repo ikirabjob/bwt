@@ -18,19 +18,20 @@ class UserController extends Controller
         $this->countryService = $countryService;
     }
 
-    public function index(){
+    public function index()
+    {
 
         $country = "Канада";
-        $country_id = $this->countryService->byName($country)->first();
+        $country_id = $this->countryService->getByName($country)->first();
         $users = $this->userService->getUsersByCountryWithCompanies($country_id->id);
 
-//        foreach ($users as $user){
+//        foreach ($users as $user) {
 //            echo "<p>";
-//            echo "User: " . $user->name. "<br>" . "Companies";
-//            foreach ($user->companies as $company){
-//                echo "<li>".
+//            echo "User: " . $user->name . "<br>" . "Companies";
+//            foreach ($user->companies as $company) {
+//                echo "<li>" .
 //                    $company->name .
-//                    " (Start Date " .$company->pivot->start_date. ", End Date " .$company->pivot->end_date. ")" .
+//                    " (Start Date " . $company->pivot->start_date . ", End Date " . $company->pivot->end_date . ")" .
 //                "</li>";
 //            }
 //            echo "</p>";

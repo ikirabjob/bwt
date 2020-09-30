@@ -12,11 +12,13 @@ class Country extends Model
 
     public $timestamps = false;
 
-    public function company(){
+    public function company()
+    {
         return $this->hasOne('App\Company');
     }
 
-    public function scopeByName($query, $name){
+    public function scopeByName($query, $name)
+    {
         return $query->where('name', $name);
     }
 }

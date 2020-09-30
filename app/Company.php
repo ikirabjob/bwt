@@ -12,8 +12,13 @@ class Company extends Model
 
     public $timestamps = false;
 
-    public function users(){
-        return $this->belongsToMany('App\User', 'user_company',
-            'user_id', 'company_id');
+    public function users()
+    {
+        return $this->belongsToMany(
+            'App\User',
+            'user_company',
+            'user_id',
+            'company_id'
+        );
     }
 }
