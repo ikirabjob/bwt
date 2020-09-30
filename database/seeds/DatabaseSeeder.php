@@ -23,13 +23,17 @@ class DatabaseSeeder extends Seeder
 
         factory(App\Company::class, 10)
             ->create([ 'county_id' => $country->id ])
-            ->each(function ($company){
+            ->each(function ($company) {
                 $user = factory(App\User::class)->create();
                 $user->companies()->attach($company->id, [
-                    'start_date' => \Carbon\Carbon::now()->addDays(rand(-100, -500))->addMinutes(rand(0,
-                        60 * 23))->addSeconds(rand(0, 60)),
-                    'end_date' => \Carbon\Carbon::now()->addDays(rand(-100, -500))->addMinutes(rand(0,
-                        60 * 23))->addSeconds(rand(0, 60))
+                    'start_date' => \Carbon\Carbon::now()->addDays(rand(-100, -500))->addMinutes(rand(
+                        0,
+                        60 * 23
+                    ))->addSeconds(rand(0, 60)),
+                    'end_date' => \Carbon\Carbon::now()->addDays(rand(-100, -500))->addMinutes(rand(
+                        0,
+                        60 * 23
+                    ))->addSeconds(rand(0, 60))
                 ]);
             });
     }

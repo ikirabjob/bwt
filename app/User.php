@@ -39,9 +39,14 @@ class User extends Authenticatable
         'email_verified_at' => 'datetime',
     ];
 
-    public function companies(){
-        return $this->belongsToMany('App\Company',
-            'user_company', 'user_id', 'company_id')
+    public function companies()
+    {
+        return $this->belongsToMany(
+            'App\Company',
+            'user_company',
+            'user_id',
+            'company_id'
+        )
             ->withPivot('start_date', 'end_date');
     }
 }
